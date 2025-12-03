@@ -7,7 +7,7 @@ async function bootstrap() {
     const app = await NestFactory.create(AppModule);
     // Swagger config
     const config = new DocumentBuilder()
-        .setTitle('My API')
+        .setTitle('Nest SynapsID')
         .setDescription('API documentation')
         .setVersion('1.0')
         .build();
